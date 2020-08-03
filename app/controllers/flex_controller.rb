@@ -8,5 +8,9 @@ class FlexController < ApplicationController
         @id = params[:id]               
     end
 
+    def userprofile
+        @id = params[:id]
+    end
+
 
 end

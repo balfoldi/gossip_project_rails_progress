@@ -13,33 +13,42 @@
  *= require_tree .
  *= require_self
  */
- 
 
 
- h1{
-  color: black;     
-}
+  h1 {
+    color: rgb(0, 0, 0); 
+    width: 100%;   
+    }
 
-p{
-    color: black
-}
+  p {
+      color: black;
+      
+    }
 
-body {
-    background-color: white;
-    padding: 70px 0px 0px 0px
+  body {
+      background-color: white;
+      padding: 70px 0px 0px 0px;
+      width: 100%;
+    }
+    
+  a {
+      color: rgb(13, 75, 18)
+    }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:100
+    }
+
+  .img-fluid {
+    height:30px; 
+    padding: 0px 20px 0px 10px;
+    }
+
+
+  .team {
+    padding: 35px;
+    text-align: center;
   }
-  
-a {
-    color: black
-}
-
-header {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-.img-fluid {
-  height:30px; 
-  padding: 0px 20px 0px 10px
-}
