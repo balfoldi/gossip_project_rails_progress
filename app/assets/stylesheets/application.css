@@ -21,12 +21,25 @@
 }
 
 p{
-    color: black}
+    color: black
+}
 
 body {
-    background-color: lightgrey;
+    background-color: white;
+    padding: 70px 0px 0px 0px
   }
   
 a {
     color: black
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.img-fluid {
+  height:30px; 
+  padding: 0px 20px 0px 10px
 }

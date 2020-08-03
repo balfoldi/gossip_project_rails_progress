@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <title>The Gossip Project</title>
     <%= csrf_meta_tags %>
@@ -7,63 +8,41 @@
     <!--//  \/ligne bootstrap copier depuis projet de semaine 1 \/-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %> 
+
+    
     <header>
-      
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <%= link_to "The Gossip Project", root_path %>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <%= link_to "Team", team_path %>
-      </li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+          <img src="https://image.flaticon.com/icons/png/512/123/123250.png" class="img-fluid" alt="Responsive image">
 
+          <div class="navbar-brand">
+          <%= link_to "The Gossip Project", root_path %>
+          </div>
 
-      
-      <li class="nav-item">
-      <%= link_to "Contact", contact_path %>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-
-
-
-
-
-
-
-
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item nav-link">
+                <%= link_to "Team", team_path %>
+              </li>
+              <li class="nav-item nav-link">
+              <%= link_to "Contact", contact_path %>
+              </li>
+            </ul>
+          </div>
+          
+        </nav>
 
     </header>
   </head>
-
+  
   <body>
     <%= yield %>
   </body>
-</html>
 
+</html>

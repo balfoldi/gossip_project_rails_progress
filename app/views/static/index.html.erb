@@ -1,1 +1,14 @@
-<h1>ACCEUIL</h1>
+
+
+
+<% gossips = Gossip.all %>
+
+<% gossips.each_with_index do |gossip, index| %>
+    <p class="text-center">
+        <%= gossip.user.first_name %> ||| <%= gossip.title %>
+    </p>
+    <p>  
+    
+    <% end %>
+
+
