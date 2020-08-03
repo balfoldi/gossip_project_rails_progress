@@ -13,12 +13,10 @@
  *= require_tree .
  *= require_self
  */
-
-
  
 
 
-h1{
+ h1{
   color: black;     
 }
 
