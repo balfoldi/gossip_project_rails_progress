@@ -1,25 +1,20 @@
 # THE WATERMELON GOSSIP PROJECT
 
-Boris Alföldi, Emeran Gainville, Lucas Gautier, Souleyman Sall, Martin lanrezac et Marion 'j' Pocquet
+Boris Alföldi, Emeran Gainville, Lucas Gautier, Souleyman Sall, Martin lanrezac et Marion 'j' Pocquet vous présentent
 
 
+T H E | W A T E R L E M O N | G O S S I P | P R O J E C T
 
-Things you may want to cover:
+goûtez les rumeurs acidulées d'une foule anonyme dont la curiosité et le voyeurisme sont piqués au vif
 
-* Ruby version
 
-* System dependencies
+Pour accéder ses trésors insoupçonnés n'oubliez pas d'effectuer un bundle install
 
-* Configuration
+un rails db:migrate sera nécessaire
 
-* Database creation
 
-* Database initialization
+Bien à vous,
 
-* How to run the test suite
+la Pas'Tech Team
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+🍉
