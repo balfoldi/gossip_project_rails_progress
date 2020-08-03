@@ -4,7 +4,9 @@ class FlexController < ApplicationController
         @name = params[:first_name]
     end
     
-
+    def gossip
+        @id = params[:id]               
+    end
 
 
 end
